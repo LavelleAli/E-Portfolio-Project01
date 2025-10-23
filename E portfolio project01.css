@@ -316,8 +316,12 @@ footer {
     background-color: #242424;
 }
 
-.footer__logo-img {
-    
+.footer__social--list {
+    width: 100%;
+    display: flex;
+    max-width: 500px;
+    justify-content: space-around;
+    margin-bottom: 28px;
 }
 
 .footer__row {
@@ -334,7 +338,20 @@ footer {
 }
 
 .footer__social--link,
-.footer__copyright {
+.footer__copyright,
+.footer__logo--popper {
     color: #fff;
 }
 
+.footer__logo--popper{
+    position: absolute;
+    right: 0;
+    top: 30px;
+    font-weight: 700px;
+}
+
+.footer__anchor {
+    margin-bottom: 20px;
+    position: relative;
+    
+}
